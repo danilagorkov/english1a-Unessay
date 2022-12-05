@@ -1,0 +1,56 @@
+body{
+    background-color: #8fb9f4;
+    flex-wrap: wrap;
+    font-family: "Gill Sans", "Courier New", monospace;
+    flex-wrap: wrap;
+}
+
+.videoPage{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Gill Sans", "Courier New", monospace;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px dotted; */
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.heading a{
+    text-decoration: none;
+    font-size: 20px
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+.videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.explonations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+.explonations p{
+    font-size: 30px;
+    width: 600px;
+}
+
+
+
+
+

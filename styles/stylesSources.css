@@ -1,0 +1,43 @@
+body{
+    background-color: #8fb9f4;
+    flex-wrap: wrap;
+}
+
+.sourcesPage{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Gill Sans", "Courier New", monospace;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px dotted; */
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.heading a{
+    text-decoration: none;
+    font-size: 20px
+}
+
+.sources {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px dotted; */
+}
+
+.sources h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sources p{
+    font-size: 20px;
+    text-align: center;
+}
+
